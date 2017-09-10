@@ -1,0 +1,96 @@
+*{
+	text-align:center;
+}
+.Question_page{
+	margin-top:50px;
+}
+/***************************Start Page**********************************/
+#start_btn{
+	background-color:#f44336;
+	font-size:24px;
+	margin:30px;
+	padding:16px 32px;
+	border-radius: 12px;
+}
+#start_btn:hover{
+	background-color:#ac0707;
+}
+/*************************Timer***********************************/
+.shell {
+	height: 20px;
+	width: 20em;
+	background: #555;
+	margin: 30px auto;
+	border-radius: 50px;
+	overflow: hidden;
+}
+.shell div {
+	float: right;
+	height: 30px;
+	background: #ef4e6e;
+}
+/********************************Score***************************************/
+#score{
+	border-left:20px solid #ffffff;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#total_score{
+	text-align: left;
+	margin:5px 10px 0 0;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*************************Question_page**************************/
+.Question_page h2{
+	text-align:center;
+	font-size:25px;
+	font-weight:normal;
+}
+.Question_page form div{
+	text-align:center;
+	padding:10px;
+}
+.Question_page form div:hover{
+	background-color:#e6ffff;
+}
+.Question_page form input{
+	background-color: #1a8cffff;
+	width: 200px;
+	font-size: 20px;
+	margin: 30px;
+	padding: 16px 16px 16px 16px;
+	border-radius: 12px;
+}
+/***************************end_page*****************************/
+
+#final_p,#final_score{
+	font-size:35px;
+	font-weight:bold;
+}
+#again_btn{
+	background-color: #80bfff;
+	width:340px;
+	font-size:20px;
+	font-weight:bold;
+	margin:10px 30px 30px 30px;
+	padding:16px 32px;
+	border-radius: 12px;
+}
+#again_btn:hover{
+	background-color: #1a8cff;
+}
+#info_btn{
+	background-color: #80bfff;
+	width:340px;
+	font-size:20px;
+	font-weight:bold;
+	margin:10px 30px 30px 30px;
+	padding:16px 32px;
+	border-radius: 12px;
+}
+#info_btn:hover{
+	background-color: #1a8cff;
+}
