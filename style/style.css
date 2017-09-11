@@ -98,3 +98,49 @@
 #info_btn:hover{
 	background-color: #1a8cff;
 }
+
+/*RWD*/
+@media (min-width: 320px) and (max-width: 425px){
+	#start_btn{
+		background-color:#f44336;
+		font-size:22px;
+		margin:25px;
+		padding:16px 32px;
+		border-radius: 12px;
+	}
+	#start_img{
+		max-width: 75%;
+		max-height: 75%;
+	}
+	#finish_img{
+		max-width: 50%;
+		max-height: 50%;
+	}
+	#info_btn{
+		background-color: #80bfff;
+		width:200px;
+		font-size:20px;
+		font-weight:bold;
+		margin:10px 30px 30px 30px;
+		padding:16px 32px;
+		border-radius: 12px;
+	}
+	#again_btn{
+		background-color: #80bfff;
+		width:200px;
+		font-size:20px;
+		font-weight:bold;
+		margin:10px 30px 30px 30px;
+		padding:16px 32px;
+		border-radius: 12px;
+	}
+	#final_p,#final_score{
+		font-size:30px;
+		font-weight:bold;
+	}
+	.Question_page h2{
+		text-align:center;
+		font-size:22px;
+		font-weight:normal;
+	}
+}

@@ -1274,10 +1274,6 @@ function next_Q20(){
 $("#again_btn").click(function(){
 	window.location.reload();
 });
-
-$("#info_btn").click(function(){
-    $("#myModal").show();
-})
 /******************************Timer********************************/
 new Vue({
     el: "#app",
