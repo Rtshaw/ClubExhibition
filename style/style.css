@@ -97,6 +97,20 @@
 	.Question_page{
 		margin-top: 0;
 	}
+	.Question_page h2{
+		margin-left: 5%;
+		margin-right: 5%;
+		font-size:22px;
+		font-weight:normal;
+	}
+	.Question_page form input{
+		background-color: #1a8cffff;
+		width: 200px;
+		font-size: 20px;
+		margin: 10px;
+		padding: 16px 16px 16px 16px;
+		border-radius: 12px;
+	}
 	#start_btn{
 		background-color:#f44336;
 		font-size: 20px;
@@ -141,19 +155,7 @@
 		font-size:30px;
 		font-weight:bold;
 	}
-	.Question_page h2{
-		text-align:center;
-		font-size:22px;
-		font-weight:normal;
-	}
-	.Question_page form input{
-		background-color: #1a8cffff;
-		width: 200px;
-		font-size: 20px;
-		margin: 10px;
-		padding: 16px 16px 16px 16px;
-		border-radius: 12px;
-	}
+
 	.shell {
 		height: 20px;
 		width: 15em;
