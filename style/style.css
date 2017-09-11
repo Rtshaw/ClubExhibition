@@ -35,8 +35,8 @@
 }
 /********************************Score***************************************/
 #score{
-	border-left:20px solid #ffffff;
 	position:absolute;
+	margin: 0px 0px 5px 20px;
 	top:0;
 	left:0;
 }
@@ -69,12 +69,11 @@
 	border-radius: 12px;
 }
 /***************************end_page*****************************/
-
-#final_p,#final_score{
+#final_p, #final_score{
 	font-size:35px;
 	font-weight:bold;
 }
-#again_btn{
+#again_btn, #info_btn{
 	background-color: #80bfff;
 	width:340px;
 	font-size:20px;
@@ -86,15 +85,6 @@
 #again_btn:hover{
 	background-color: #1a8cff;
 }
-#info_btn{
-	background-color: #80bfff;
-	width:340px;
-	font-size:20px;
-	font-weight:bold;
-	margin:10px 30px 30px 30px;
-	padding:16px 32px;
-	border-radius: 12px;
-}
 #info_btn:hover{
 	background-color: #1a8cff;
 }
@@ -103,14 +93,21 @@
 @media (min-width: 320px) and (max-width: 425px){
 	#start_btn{
 		background-color:#f44336;
-		font-size:22px;
-		margin:25px;
+		font-size: 20px;
+		margin: 0;
 		padding:16px 32px;
 		border-radius: 12px;
 	}
 	#start_img{
-		max-width: 75%;
-		max-height: 75%;
+		margin-top: 10%;
+		max-width: 80%;
+		max-height: 80%;
+	}
+	#score{
+		margin-left: 32%;
+	}
+	#total_score{
+		text-align: center;
 	}
 	#finish_img{
 		max-width: 50%;
