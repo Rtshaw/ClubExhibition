@@ -15,6 +15,10 @@
 #start_btn:hover{
 	background-color:#ac0707;
 }
+#start_img{
+	max-width: 40%;
+	max-height: 40%;
+}
 /*************************Timer***********************************/
 .shell {
 	height: 20px;
