@@ -1282,8 +1282,8 @@ $("#again_btn_time").click(function(){
 new Vue({
     el: "#app",
     data: {
-        time: 10,
-        initial: 10,
+        time: 60,
+        initial: 60,
         started: false,
     },
 
