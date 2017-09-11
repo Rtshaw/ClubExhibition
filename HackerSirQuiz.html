@@ -5,7 +5,7 @@
 		<title>HackerSir Quiz</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="style/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="style/windows.css">
+        <link rel="stylesheet" href="style/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
@@ -31,7 +31,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.20/vue.js'></script>
         <script src="js/index.js"></script>
@@ -417,18 +416,19 @@
             </h2>
             <form id="Q20_form">
                 <div>
-                    <input type="button" style="background-image: url(https://i.imgur.com/DFNofznm.png); width:320px; height:319px;" class="0-0" name="Question20" value="1" id="q20_ans_0"><br>
+                    <input @click="pause" type="button" style="background-image: url(https://i.imgur.com/DFNofznm.png); width:320px; height:319px;" class="0-0" name="Question20" value="  " id="q20_ans_0"><br>
                 </div>
                 <div>
-                    <input type="button" style="background-image: url(https://i.imgur.com/LiDrqyRm.png); width:320px; height:320px;" class="0-1" name="Question20" value=" " id="q20_ans_1"><br>
+                    <input @click="pause" type="button" style="background-image: url(https://i.imgur.com/LiDrqyRm.png); width:320px; height:320px;" class="0-1" name="Question20" value=" " id="q20_ans_1"><br>
                 </div>
                 <div>
-                    <input type="button" style="background-image: url(https://i.imgur.com/1NRfYb5m.jpg); width:320px; height:320px;" class="0-2" name="Question20" value=" " id="q20_ans_2"><br>
+                    <input @click="pause" type="button" style="background-image: url(https://i.imgur.com/1NRfYb5m.jpg); width:320px; height:320px;" class="0-2" name="Question20" value=" " id="q20_ans_2"><br>
                 </div>
                 <div>
-                    <input type="button" style="background-image: url(https://i.imgur.com/aTxu74sm.png); width:320px; height:320px;" class="0-3" name="Question20" value=" " id="q20_ans_3"><br>
+                    <input @click="pause" type="button" style="background-image: url(https://i.imgur.com/aTxu74sm.png); width:320px; height:320px;" class="0-3" name="Question20" value=" " id="q20_ans_3"><br>
                 </div>
             </form>
+        </div>
         </div>
 	<!--End-->
 		<div id="end_page">

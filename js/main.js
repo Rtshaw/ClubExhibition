@@ -1228,7 +1228,7 @@ function next_Q20(){
     $("input:button[name=Question20]").click(function(index,val){
         submit_time++;
         var answer = $(this).val();
-        if(submit_time == 1 && answer == "1"){
+        if(submit_time == 1 && answer == "  "){
             score++;
             $("#score_span").text(score);
             $("#this_span").text("1");
@@ -1299,8 +1299,11 @@ new Vue({
                     $("#end_page").show();
                 }
             }, 1000);
-
             this.started = true;
+        },
+        pause() {
+            clearInterval(this.interval);
+            this.started = false;
         }
     }
 })
