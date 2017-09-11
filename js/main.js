@@ -7,6 +7,7 @@ $(document).ready(function(){
     $("#timer").hide();
 	$("#score").hide();
 	$("#end_page").hide();
+	$("#end_page_time").hide();
 	/*********************test*************************/
 	//$("#start_div").hide();
 	//$("#score").show();
@@ -1274,12 +1275,15 @@ function next_Q20(){
 $("#again_btn").click(function(){
 	window.location.reload();
 });
+$("#again_btn_time").click(function(){
+    window.location.reload();
+});
 /******************************Timer********************************/
 new Vue({
     el: "#app",
     data: {
-        time: 60,
-        initial: 60,
+        time: 10,
+        initial: 10,
         started: false,
     },
 
@@ -1296,7 +1300,7 @@ new Vue({
                     $("#score").hide();
                     $("#final_score").text(score);
                     $("#Q1,#Q2,#Q3,#Q4,#Q5,#Q6,#Q7,#Q8,#Q9,#Q10,#Q11,#Q12,#Q13,#Q14,#Q15,#Q16,#Q17,#Q18,#Q19,#Q20").hide();
-                    $("#end_page").show();
+                    $("#end_page_time").show();
                 }
             }, 1000);
             this.started = true;

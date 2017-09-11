@@ -46,7 +46,6 @@
 	font-size:20px;
 	font-weight:bold;
 }
-
 /*************************Question_page**************************/
 .Question_page h2{
 	text-align:center;
@@ -72,11 +71,11 @@
 	width: 260px;
 }
 /***************************end_page*****************************/
-#final_p, #final_score{
+#final_p, #final_score, #final_p_time, #final_score_time{
 	font-size:35px;
 	font-weight:bold;
 }
-#again_btn, #info_btn{
+#again_btn, #info_btn, #again_btn_time, #info_btn_time{
 	background-color: #80bfff;
 	width:340px;
 	font-size:20px;
@@ -85,11 +84,15 @@
 	padding:16px 32px;
 	border-radius: 12px;
 }
-#again_btn:hover{
+#again_btn:hover, #again_btn_time:hover{
 	background-color: #1a8cff;
 }
-#info_btn:hover{
+#info_btn:hover, #info_btn_time:hover{
 	background-color: #1a8cff;
+}
+#finish_img_time{
+	max-width: 40%;
+	max-height: 40%;
 }
 
 /*RWD*/
@@ -133,7 +136,11 @@
 		max-width: 40%;
 		max-height: 40%;
 	}
-	#info_btn{
+	#finish_img_time{
+		max-width: 75%;
+		max-height: 75%;
+	}
+	#info_btn, #info_btn_time{
 		background-color: #80bfff;
 		width:200px;
 		font-size:20px;
@@ -142,7 +149,7 @@
 		padding:16px 32px;
 		border-radius: 12px;
 	}
-	#again_btn{
+	#again_btn, #again_btn_time{
 		background-color: #80bfff;
 		width:200px;
 		font-size:20px;
@@ -151,11 +158,10 @@
 		padding:16px 32px;
 		border-radius: 12px;
 	}
-	#final_p,#final_score{
+	#final_p,#final_score, #final_p_time, #final_score_time{
 		font-size:30px;
 		font-weight:bold;
 	}
-
 	.shell {
 		height: 20px;
 		width: 15em;
