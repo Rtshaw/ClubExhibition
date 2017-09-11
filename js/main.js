@@ -1241,8 +1241,8 @@ function next_Q20(){
         submit_time = 0;
         $("#Q20").hide();
         $("#timer").hide();
-        $("#end_page").show();
         $("#score").hide();
+        $("#end_page").show();
         $("#final_score").text(score);
     });
     $("#q20_ans_1").click(function(){
@@ -1274,6 +1274,10 @@ function next_Q20(){
 $("#again_btn").click(function(){
 	window.location.reload();
 });
+
+$("#info_btn").click(function(){
+    $("#myModal").show();
+})
 /******************************Timer********************************/
 new Vue({
     el: "#app",
