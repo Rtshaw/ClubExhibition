@@ -15,7 +15,7 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 +function ($) {
-    'use strict';
+    
     // MODAL CLASS DEFINITION
     // ======================
     var Modal = function (element, options) {
