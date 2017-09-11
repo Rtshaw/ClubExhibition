@@ -40,7 +40,7 @@
     <!--Q1-->
     <div class="Question_page" id="Q1">
         <h2>
-            Question 1: 社團博覽會集點系統是哪一個社團製作的?
+            Question 1: 社團博覽會集點系統是以下哪個社團製作的?
         </h2>
         <form id="Q1_form">
             <div>
@@ -60,11 +60,11 @@
     <!--Q2-->
     <div class="Question_page" id="Q2">
         <h2>
-            Question 2: 今天你要在網路上找逢甲考古題的資料，你會怎麼搜尋?
+            Question 2: 今天你要上網找逢甲考古題的資料，你會怎麼搜尋?
         </h2>
         <form id="Q2_form">
             <div>
-                <input type="button" class="0-0" name="Question2" value="逢甲大學考古題" id="q2_ans_0"><br>
+                <input type="button" class="0-0" name="Question2" value="哪裡有逢甲大學的考古題" id="q2_ans_0"><br>
             </div>
             <div>
                 <input type="button" class="0-1" name="Question2" value="逢甲 考古" id="q2_ans_1"><br>
@@ -134,7 +134,7 @@
     <!--Q6-->
     <div class="Question_page" id="Q6">
         <h2>
-            Question 6: 我們社團是?
+            Question 6: 我們的社團名稱是?
         </h2>
         <form id="Q6_form">
             <div>
@@ -214,7 +214,7 @@
     <!--Q10-->
     <div class="Question_page" id="Q10">
         <h2>
-            Question 10: CTF是什麼的簡稱?
+            Question 10: 資訊安全競賽CTF是什麼遊戲的簡稱?
         </h2>
         <form id="Q10_form">
             <div>
@@ -254,7 +254,7 @@
     <!--Q12-->
     <div class="Question_page" id="Q12">
         <h2>
-            Question 12: Windows下要看目錄裡有甚麼要輸入甚麼?
+            Question 12: Windows下要看目錄裡有甚麼要輸入甚麼指令?
         </h2>
         <form id="Q12_form">
             <div>
@@ -274,7 +274,7 @@
     <!--Q13-->
     <div class="Question_page" id="Q13">
         <h2>
-            Question 13: 編輯文件可用下列哪個指令?
+            Question 13: Linux下編輯文件可用下列哪個指令?
         </h2>
         <form id="Q13_form">
             <div>
@@ -294,7 +294,7 @@
     <!--Q14-->
     <div class="Question_page" id="Q14">
         <h2>
-            Question 14: 如果昨天是明天的話就好了，這樣今天就是星期五了。<br> 句子中的「今天」是星期幾?(擇一即可)
+            Question 14: 如果昨天是明天的話就好了，這樣今天就是星期五了。<br> 句中的「今天」是星期幾?(擇一即可)
         </h2>
         <form id="Q14_form">
             <div>
@@ -434,7 +434,13 @@
     <img alt="finish" src="image/finish.png">
     <p id="final_p">Your Final Score:<span id="final_score"></span></p>
     <button id="again_btn">再玩一次</button>
-    <button type="button" id="info_btn"  onclick="alertify.alert('Welcome to HackerSir','新生茶會日期 : 9/20(三) 語文301<br>融科技與資料科學 : 9/21(四) 資電234<br>資訊安全課程 : 9/25起 每週一 18:30 ~ 21:00 資電235<br>Python/Web課程 : 9/27起 每週三 18:30 ~ 21:00 資電234<br> 想要取得更多資訊?<br> <a target=\'_blank\' href=\'https://fb.me/HackerSir.tw\'>逢甲大學黑客社粉絲專頁</a><br>');"> 社課資訊</button>
+    <button type="button" id="info_btn"  onclick="alertify.alert('Welcome to HackerSir','' +
+        '<p>新生茶會日期 : 9/20(三) 語文301</p>' +
+        '<p>金融科技與資料科學 : 9/21(四) 資電234</p>' +
+        '<p>資訊安全課程 : 9/25起 每週一 18:30 ~ 21:00 資電235</p>' +
+        '<p>Python/Web課程 : 9/27起 每週三 18:30 ~ 21:00 資電234</p>' +
+        '<p>想要取得更多資訊?</p>' +
+        '<a target=\'_blank\' href=\'https://fb.me/HackerSir.tw\'>逢甲大學黑客社粉絲專頁</a>');">社課資訊</button>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
